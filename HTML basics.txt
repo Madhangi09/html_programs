@@ -1,0 +1,29 @@
+HTML basics
+
+..<hr>    will give you a new line 
+..<br>    will print in next line
+
+..<hr> and <br> doesn't need to close 
+..<h> is used for heading we can also add sub headings as <h1> and close as </h1>
+like this we can use many sub headings
+
+..to change background color ==> <style= "background-color:eg:red);">
+
+..to give comment <!-- (eg:my guide) -->
+..for border use == "color:(eg:red);border:2px (eg:dotted black);"
+..for changing text use == "color:blue;"
+..to change the font size use == <p style="font-family:(eg:courier or verdana or etc);">paragraph with different font</p>
+
+..text alignment == <h1 style="text-align:(eg:center or left or right);">
+
+..<b>Bold Text</b> --->bold text
+..<strong>Important text</strong> --->strong text
+..<i>This text is italic</i> ---> Italic
+..<em>This text is emphasized</em> ---> emphasis-italics
+..<small>This is some smaller text.</small> --->displays in small
+..<p>Highlights the text <mark> HIGHLIGHTER </mark>today.</p> ---> highlights the text
+
+..<p>My favourite color is <del>blue</del>red.</p> --->strike through
+..<p>My favourite color is <ins>red</ins>.</p> --->underlines the text
+
+..to change height == width="200" height="200"
