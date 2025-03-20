@@ -1,0 +1,30 @@
+Program done in Notepad ++ and saved as "server"
+
+Flask --> main class to create application
+request --> to access incoming request
+render_tamplate --> to return an html page to the client
+
+
+TO INSTALL FLASH PACK
+after getting the name in command prompt
+type this:
+
+Step1 : Set the path in Command prompt
+ cd space "path"
+      or
+chdir /d "path"
+
+Step2 : python -m venv venv   --> press enter
+
+Step3 : venv\Scripts\activate    --> after this, you will get   --> press enter
+
+(venv) D:\HTML\Notepad ++    --> press enter
+
+Step4 : pip install flask  --> press enter
+
+Step5 : Close the prompt and again use path and press enter you will get something in there type "server.py"
+
+SOME NOTES OF NOTEPAD++
+
+to visible values --> use : <select id="cars" name="cars" size="4">
+to allow multiple values -->  <select id="cars" name="cars" size="4" multiple>
