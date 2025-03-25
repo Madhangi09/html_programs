@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transition</title>
+<style>
+div{
+background-color:lavender;
+border:1px solid black;
+width:60%;
+height:200px;
+transition: width 2s, height 2s, transform 2s;
+}
+div:hover
+{
+width:50%;
+height:200px;
+transition-delay:3s;
+transform:rotate(360deg);
+transition-timing-function:ease-out;             /*ease,linear,ease-in,ease-out,ease-in-out*/
+}
+
+img{
+animation:cowanimate;
+animation-duration:5s;
+animation-iteration-count:1;
+animation-delay:3s;
+animation-timing-function:ease-out;
+animation-direction:reverse;
+animation-fill-mode:forwards;
+}
+@keyframes cowanimate
+{
+0% {transform: translateY(0) scale(1);}
+50% {transform: translateY(50px) scale(2);}
+100% {transform: translateY(0) scale(3);}
+}
+</style>
+</head>
+<body>
+<h2>Animation</h2>
+<img src="https://i.pinimg.com/originals/26/7b/2b/267b2b837be934c5071fcd23729205a2.jpg" alt="cow" width="100px" height="100px">
+<br>
+<div>
+<p>Translate method moves the element from its current position</p>
+</div>
+</body>
+</html>
