@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, pink, red);
+            background-size: 400% 400%;
+            animation: rainbowBG 8s infinite linear;
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        @keyframes rainbowBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px black;
+        }
+        .music-container {
+            margin-top: 20px;
+        }
+        audio {
+            margin: 10px;
+            width: 60%;
+        }
+        .gallery-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery-row img {
+            width: 250px;
+            height: 180px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎶 Welcome to My Music Webpage 🎶</h1>
+
+    <div class="music-container">
+        <h2>Listen to Music</h2>
+        <audio controls>
+            <source src="music1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls>
+            <source src="music2.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls>
+            <source src="music3.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls>
+            <source src="music4.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls>
+            <source src="music5.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>  
+    </div>
+
+    <div class="gallery-container">
+        <h2>Music Gallery</h2>
+        <div class="gallery-row">
+            <img src="https://wallpaperaccess.com/full/1133530.jpg" alt="Music Image 1">
+            <img src="https://img.freepik.com/premium-photo/illustration-beautiful-flute-with-peacock-feather_945369-21419.jpg" alt="Music Image 2">
+            <img src="https://images.wallpaperscraft.com/image/single/piano_keys_macro_200071_1920x1080.jpg" alt="Music Image 3">
+        </div>
+        <div class="gallery-row">
+            <img src="https://www.ghatamudupa.com/images/ghatam/Ghatam_2.jpg" alt="Music Image 4">
+            <img src="https://cdn.wallpapersafari.com/88/9/zGr9io.png" alt="Music Image 5">
+        </div>
+    </div>
+
+</body>
+</html>
+
