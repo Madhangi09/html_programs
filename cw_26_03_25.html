@@ -1,0 +1,156 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+img{
+clip-path:circle(50% at right);
+shape-outside:circle(50%);
+}
+div{
+border:1px solid red;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<h2>Kerala God's own Country</h2>
+<div>
+<img src="https://wallpapercave.com/wp/wp2894179.jpg" width="300" height="300" alt="nature">
+<p>The Malabar region is situated in southwestern India and is bordered by the Arabian Sea. It encompasses parts of Kerala, including the districts of Thrissur, Palakkad, Malappuram, Kozhikode, Wayanad, Kannur, and Kasaragod. <br><br>
+Known for its lush greenery, serene beaches, and narrow coast, it is a popular tourist destination in the southwestern coast.The city of Kozhikode was the capital of Malabar. Malabar was divided into North Malabar and South Malabar in 1793 for administrative convenience, with their regional headquarters at Thalassery and Cherpulassery (Later changed to Ottapalam) respectively. During the British rule, Malabar's chief importance lay in its production of Malabar pepper, coconut, and tiles.</p>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+#img{
+float:right;
+clip-path:ellipse(50%,50%);
+shape-outside:ellipse(20% 40%);
+}
+div{
+border:2px solid red;
+padding:20px;
+width:400px;
+height:600px;
+overflow:auto;
+}
+</style>
+</head>
+<body>
+<h2>Kerala God's own Country</h2>
+<div>
+<img id="img" src="https://wallpapercave.com/wp/wp2894179.jpg" width="300" height="300" alt="nature">
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+#img{
+clip-path:polygon(50% 0% ,100% 50% ,50% 100% ,0% 50%);
+/* top , right , bottom , left*/
+shape-outside:polygon(50% 0% ,100% 50% ,50% 100% ,0% 50%);
+}
+div{
+border:1px solid red;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<h2>Kerala God's own Country</h2>
+<div>
+<img id="img" src="https://wallpapercave.com/wp/wp2894179.jpg" width="300" height="300" alt="nature">
+</div>
+</body>
+</html> 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+img{
+object-fit:fill; /*cover, conatin, fill, none, scale-down*/
+object-position:20% 80%;
+}
+</style>
+</head>
+<body>
+<h2>Kerala God's own Country</h2>
+<div>
+<img src="https://wallpapercave.com/wp/wp2894179.jpg" width="300" height="300" alt="nature">
+</div>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+.i1
+{
+-webkit-mask-image:url(https://clipart-library.com/img/1577511.jpg);
+mask-image:url(https://www.bsr.org/images/thumbnails/2023-9-12-Laura-Donnelly-Nature-Board-Thumb2.jpg);
+mask-repeat:no-repeat;
+mask-size;
+}
+</style>
+</head>
+<body>
+<h2>Kerala God's own Country</h2>
+<div class="i1">
+<img src="https://wallpapercave.com/wp/wp2894179.jpg" width="300" height="300" alt="nature">
+</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Images</title>
+<style>
+.flex-container
+{
+display:flex;
+height:100px;
+background:yellow;
+flex-direction:row;   /*row-reverse, column-reverse, row, column*/
+flex-wrap:wrap;  /*wrap, nowrap, wrap-reverse*/
+flex-flow: row wrap;      /*direction + wrap*/
+justify-content:center;  /*flex-start, flex-end, space-around, space-between, space-evenly*/
+align-items:flex-end;  /*vertically algns - center, flex-start, flex-end, stretch*/
+align-content:center;   
+}
+.flex-container > div
+{
+background-color:lightblue;
+margin:10px;
+padding:10px;
+font-size:40px;
+width:200px;
+}
+</style>
+</head>
+<div class="flex-container">
+<div style="order:2"> A </div>    
+<div style="flex-grow:1"> B </div>
+<div style="flex-shrink:4"> C </div>
+<div style="flex-basis:200px 5"> D </div>
+<div style="order:3"> E </div>
+</div>
+</body>
+</html>
